@@ -30,8 +30,8 @@ app.post("/create-checkout-session", async (req, res) => {
           quantity: 1
         }
       ],
-      success_url: `${origin}/success.html`,
-      cancel_url: `${origin}/cancel.html`
+      success_url: ${origin}/success.html,
+      cancel_url: ${origin}/cancel.html
     });
 
     res.json({ id: session.id });
@@ -44,5 +44,5 @@ app.post("/create-checkout-session", async (req, res) => {
 const PORT = process.env.PORT || 4242;
 
 app.listen(PORT, "0.0.0.0", () => {
-  console.log(Server running on port ${PORT});
+  console.log(Server running on port ${PORT});
 });
