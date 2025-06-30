@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Payment Success</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>✨ Payment Successful!</h1>
+  <p id="archetype-message"></p>
+  <button id="view-report-btn">View My Report</button>
+  <script>
+    const archetype = localStorage.getItem("userArchetype");
+    if (archetype) {
+      document.getElementById("archetype-message").textContent =
+        `You unlocked the full report for the ${archetype}!`;
+    }
+    document.getElementById("view-report-btn").addEventListener("click", () => {
+      localStorage.setItem("iccoinPaid", "true");
+      window.location.href = "/";
+    });
+  </script>
+</body>
+</html>

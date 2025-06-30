@@ -1,0 +1,18 @@
+{
+  "Warrior": {
+    "shortDescription": "You are a courageous soul driven by purpose and protection.",
+    "fullReport": "As the Warrior, your cosmic path is one of bravery, strength, and leading by example. You inspire others through your determination and commitment to justice."
+  },
+  "Seeker": {
+    "shortDescription": "You are drawn to the mysteries of the universe.",
+    "fullReport": "As the Seeker, your journey involves deep exploration and spiritual discovery. Your gift lies in asking the right questions and walking the path of inner knowing."
+  },
+  "Sage": {
+    "shortDescription": "You seek truth and offer clarity to others.",
+    "fullReport": "As the Sage, your cosmic role is to transmit divine wisdom. You are the lighthouse in the dark, guiding others through understanding and sacred knowledge."
+  },
+  "Creator": {
+    "shortDescription": "You birth beauty and meaning into existence.",
+    "fullReport": "As the Creator, your purpose is to shape the world with vision and art. Your essence brings forth healing, transformation, and inspiration."
+  }
+}
