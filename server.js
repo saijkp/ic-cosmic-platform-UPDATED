@@ -41,4 +41,4 @@ app.post("/create-checkout-session", async (req, res) => {
   }
 });
 
-app.listen(4242, () => console.log("🚀 Server running on http://localhost:4242"));
+app.listen(4242, "0.0.0.0", () => console.log("Server running..."));
